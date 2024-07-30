@@ -1,0 +1,49 @@
+.game-project-positioning-div{
+    display: flex;
+    align-items: center;
+    margin-left: 5vw;
+    margin-bottom: 5vw;
+    /* border: 1px solid red; */
+
+}
+
+.gameProjects-div a{
+    text-decoration: none;
+}
+
+.game-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameProjects-div:first-child img{
+    height: 15vw;
+    margin-bottom: 1vw;
+    filter: drop-shadow(2px 2px 5px #8750f7);
+}
+
+.game-name{
+    font-size: 1.7vw;
+    color: #8750f7;
+    /* border: 1.5px solid red; */
+    box-shadow: 2px 2px 3px #8750f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 17vw;
+}
+
+
+@media only screen and (max-width:800px){
+    .gameProjects-div:first-child img{
+        height: 35vw;
+    }
+
+    .game-name{
+        font-size: 4vw;
+        margin-top: 3vw;
+        width: 40vw;
+    }
+}

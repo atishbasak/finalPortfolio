@@ -1,0 +1,46 @@
+.nested-comments{
+    padding-left: 5vw;
+    /* padding-top: 25px; */
+    margin-top: 11vw;
+    color: white;
+}
+
+.reply-comments-temporary{
+    margin-top: 1.5vw;
+    width: 20vw;
+    height: 3vw;
+    color: orange;
+    border: 2px solid orange;
+    background-color: transparent;
+}
+
+.button-comments-add{
+    width: 5vw;
+    height: 2vw;
+    font-size: 1vw;
+    border: 1.5px solid orange;
+    background-color: transparent;
+    color: orange;
+    margin-top: 1vw;
+    margin-right: 1vw;
+    border-radius: 5px;
+}
+
+.button-comments-cancle{
+    width: 5vw;
+    height: 2vw;
+    border: 1.5px solid orange;
+    background-color: transparent;
+    color: orange;
+    border-radius: 5px;
+}
+
+.button-comments-delete{
+    width: 5vw;
+    height: 2vw;
+    border: 1.5px solid orange;
+    background-color: transparent;
+    color: orange;
+    border-radius: 5px;
+    margin-top: 1.5vw;
+}
